@@ -20,7 +20,7 @@ The project is developed following **Clean Architecture**, ensuring separation o
 
 ```plaintext
 lib/
- |-- core/            # Contains common widgets, constants, and base setup
+ |-- core/                  # Contains common widgets, constants, and base setup
  | -- src
    | -- feature
       |-- data/             # Data layer: Responsible for accessing and managing local & remote data
@@ -33,10 +33,10 @@ lib/
 
       |-- di/               # Used for the dependency injection
        
-      |-- presentation/    # Presentation layer: Handles UI and user interactions
-         |-- bloc/        # Bloc or cubit classes for state management
-         |-- pages/       # UI screens or pages
-         |-- widgets/     # Reusable UI components/widgets
+      |-- presentation/     # Presentation layer: Handles UI and user interactions
+         |-- bloc/          # Bloc or cubit classes for state management
+         |-- pages/         # UI screens or pages
+         |-- widgets/       # Reusable UI components/widgets
          
    |-- common utils/      # Used for the common utilities and toast message
    
