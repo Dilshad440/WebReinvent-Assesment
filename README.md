@@ -38,7 +38,7 @@ lib/
          |-- pages/         # UI screens or pages
          |-- widgets/       # Reusable UI components/widgets
          
-   |-- common utils/      # Used for the common utilities and toast message
+   |-- common utils/        # Used for the common utilities and toast message
    
 ```
 
